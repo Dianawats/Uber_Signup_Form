@@ -1,18 +1,19 @@
 body{
     background-color: whitesmoke;
+    font-family: Helvetica;
 }
 
 * {
     box-sizing: border-box;
 }
 
-main{
+main-section{
     display: flex;
     justify-content: center;
 }
 
 section#SignUp-section{
-    padding: 3rem 5rem;
+    padding: 3rem 6rem;
 }
 
 .header{
@@ -23,14 +24,16 @@ section#SignUp-section{
     padding:10px 12px;
     background: #000000;
     width: fit-content;
-    color: #ffffff;
     margin: 0 auto;
+    color: #ffffff;
+    
 
 }
 
 .header > h3{
-    font-weight:1000;
-    font-size:40;
+    font-weight:950;
+    font-size:30px;
+    margin-bottom: 10px;
 }
 
 .header > h4{
@@ -45,7 +48,7 @@ section#SignUp-section{
     justify-content: space-between;
 }
 
-.form-element-group > .element:first-child {
+.form-element-group > .form-element:first-child {
     margin-right: 10px;
   }
 
@@ -54,7 +57,7 @@ section#SignUp-section{
   }
 
 .form-element,
-.element-group {
+.form-element-group {
   margin-bottom: 24px;
 }
 
@@ -73,7 +76,7 @@ section#SignUp-section{
   }
 
 @media (max-width: 500px) {
-    main {
+    main-section {
       display: block;
     }
     section#SignUp-section {
@@ -86,7 +89,7 @@ section#SignUp-section{
   
 
 .form-element > input:focus {
-    /* outline: none; */
+    outline: none;
     border-color: #096b70;
   } 
 
@@ -96,16 +99,16 @@ section#SignUp-section{
     font-size: 14px;
   }
 
-button.main {
+button.main-section {
     background: #096b70;
     padding: 18px;
     border: 1px solid #ddd;
-    text-align: left;
-    text-transform: uppercase;
     color: #ffffff;
+    text-align: left;
     width: 100%;
     font-size: 20px;
     font-weight: 500;
+    text-transform: uppercase;
     cursor: pointer;
   }
 
