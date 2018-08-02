@@ -1,0 +1,61 @@
+body{
+    background-color: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main-section{
+    display: flex;
+    justify-content: center;
+}
+
+section#SignUp-section{
+    padding: 3rem 5rem;
+}
+
+.header{
+    text-align: center;
+}
+
+.header .logo{
+    padding:10px 12px;
+    background: black;
+    width: fit-content;
+    color: ffffff;
+    margin: 0 auto;
+
+}
+
+.header > h3{
+    font-weight:1000;
+    font-size:40;
+}
+
+.header > h4{
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.element-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.element-group > .element:first-child {
+    margin-right: 10px;
+  }
+
+.element-group > .child-element {
+    margin: 0;
+  }
+
+.form-element,
+.element-group {
+  margin-bottom: 24px;
+}
+
+
